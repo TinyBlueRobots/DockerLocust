@@ -1,5 +1,3 @@
-# DockerLocust
-
 Set the TARGET_URL in common.yml
 
 Edit locustfile.py to do stuff to your site
