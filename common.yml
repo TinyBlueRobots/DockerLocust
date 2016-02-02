@@ -1,0 +1,5 @@
+locust:
+  build: .
+  environment:
+    TARGET_URL: http://website.com
+    SCENARIO_FILE: /locust/locustfile.py

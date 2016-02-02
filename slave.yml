@@ -1,0 +1,7 @@
+slave:
+  extends:
+    file: common.yml
+    service: locust
+  environment:
+    LOCUST_MODE: slave
+    MASTER_HOST: master
